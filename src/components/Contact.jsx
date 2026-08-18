@@ -29,8 +29,8 @@ export const Contact = () => {
   const [submitted, setSubmitted] = useState(false);
 
   const email = 'baljiyahsk@gmail.com';
-  const linkedinUrl = 'https://linkedin.com/in/jiha-kamal-b8452226a';
-  const linkedinDisplay = 'linkedin.com/in/jiha-kamal-b8452226a';
+  const linkedinUrl = 'https://www.linkedin.com/in/iqbal-najihah-b8452226a/';
+  const linkedinDisplay = 'linkedin.com/in/iqbal-najihah-b8452226a';
 
   const handleCopyEmail = () => {
     navigator.clipboard.writeText(email);
