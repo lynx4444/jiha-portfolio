@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import { 
-  Mail, 
-  MapPin, 
-  Copy, 
-  Check, 
-  Send, 
-  Sparkles, 
+import {
+  Mail,
+  MapPin,
+  Copy,
+  Check,
+  Send,
+  Sparkles,
   ExternalLink,
   MessageSquareHeart,
   FileCheck
@@ -13,9 +13,9 @@ import {
 import { SparkleDoodle, StarDoodle, SquiggleUnderline } from './Doodles';
 
 const LinkedinIcon = ({ className = "w-5 h-5" }) => (
-  <svg 
-    viewBox="0 0 24 24" 
-    fill="currentColor" 
+  <svg
+    viewBox="0 0 24 24"
+    fill="currentColor"
     className={className}
     aria-hidden="true"
   >
@@ -52,7 +52,7 @@ export const Contact = () => {
       <div className="absolute bottom-0 left-0 w-80 h-80 bg-[#A8B89F]/15 rounded-full blur-3xl pointer-events-none" />
 
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        
+
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto mb-14">
           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/80 border border-[#D8A7A0]/30 text-xs font-bold text-[#9C574F] uppercase tracking-wider mb-3 shadow-xs">
@@ -68,10 +68,10 @@ export const Contact = () => {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-          
+
           {/* Direct Contact Cards */}
           <div className="lg:col-span-5 space-y-4">
-            
+
             {/* Email Card */}
             <div className="cute-card bg-white p-6 border border-[#3A342C]/8">
               <div className="flex items-start justify-between gap-3 mb-3">
@@ -101,7 +101,7 @@ export const Contact = () => {
               <div className="text-xs font-bold uppercase tracking-wider text-[#8E8477] mb-1">
                 Direct Email
               </div>
-              <a 
+              <a
                 href={`mailto:${email}`}
                 className="text-base sm:text-lg font-bold text-[#3A342C] hover:text-[#D8A7A0] transition-colors break-all"
               >
@@ -132,7 +132,7 @@ export const Contact = () => {
               <div className="text-xs font-bold uppercase tracking-wider text-[#8E8477] mb-1">
                 LinkedIn Profile
               </div>
-              <a 
+              <a
                 href={linkedinUrl}
                 target="_blank"
                 rel="noopener noreferrer"
